@@ -21,4 +21,16 @@ WHERE id = 1;
 ALTER TABLE friends
 ADD COLUMN email TEXT;
 
+UPDATE friends
+SET email = 'storm@gmail.com'
+WHERE id = 1;
+
+UPDATE friends
+SET email = 'sarah@gmail.com'
+WHERE id = 2;
+
+UPDATE friends
+SET email = 'john@gmail.com'  
+WHERE id = 3;
+
 SELECT * FROM friends;
