@@ -11,4 +11,7 @@ UPDATE friends
 SET birthday = '1940-05-30'
 WHERE id = 1;
 
+INSERT INTO friends (id, name, birthday)
+VALUES (2, 'Sarah Mckinley', '1979-07-28'), (3, 'John Doyle', '1985-08-20');
+
 SELECT * FROM friends;
